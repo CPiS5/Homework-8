@@ -1,0 +1,24 @@
+ .road {
+    position: relative;
+    width: 750px;
+    height: 275px;
+    animation-name: earth;
+    top: 300px;
+    left: 600px;
+ }
+ .airplane {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    animation-name: airplane;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+ }
+ @keyframes airplane {
+    0% {top: 0px; left: 0px;}
+    25% {top: 100px; left: 150px;}
+    50% {top: 250px; left: 300px;}
+    75% {top: 300px; left: 550px;}
+    100% {top: 350px; left: 800px;}
+ }
